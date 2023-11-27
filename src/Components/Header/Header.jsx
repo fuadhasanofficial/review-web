@@ -28,6 +28,10 @@ const Header = () => {
           </li>
           <li className="mr-2">
             {" "}
+            <Link to="/blog"> Blog</Link>
+          </li>
+          <li className="mr-2">
+            {" "}
             <Link to="/my-review">Review</Link>{" "}
           </li>
           <li className="mr-2">

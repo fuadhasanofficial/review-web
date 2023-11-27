@@ -8,6 +8,7 @@ import AddReview from "../Components/Home/AddReview";
 import PrivetRoute from "../Autentication/PrivateRoute/PrivetRoute";
 import MyReview from "../Components/Home/MyReview";
 import SingleReview from "../Components/Home/SingleReview";
+import Blog from "../Components/Home/Blog";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       { path: "/", element: <Home></Home> },
+      { path: "/blog", element: <Blog></Blog> },
       { path: "/login", element: <Login></Login> },
       { path: "/signup", element: <Signup></Signup> },
       { path: "/my-review", element: <MyReview></MyReview> },
